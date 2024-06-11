@@ -24,7 +24,7 @@ def index():
     
 @app.route ('/mine')
 def mine():
-    return render_template('Уроки, курсы и материалы по различным предметам.html')
+    return render_template('Уроков, курсов и материалв по различным предметам.html')
 
 @app.route ('/lit')
 def  lit():
